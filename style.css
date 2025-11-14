@@ -13,7 +13,7 @@ a {
 	text-decoration: none;
 }
 .container {
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -439,7 +439,7 @@ p {
 	content: '';
 	position: absolute;
 	left: -33px;
-	top: 19px;
+	top: 10px;
 	height: 98%;
 	width: 98%;
 	border: 7px solid crimson;
@@ -701,3 +701,10 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+.container-hero {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
